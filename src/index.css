@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F7FAFC;
+  color: #2D3748;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4FD1C5;
+}
